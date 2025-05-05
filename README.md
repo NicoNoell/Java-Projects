@@ -15,7 +15,7 @@ similar to the Diamond Step, such that a
 square grid is restored. If you repeat this process recursively a sufficient number of times reducing the variance as you go, you 
 get natural terrain looking something like this: \
 \
-<img src="Images/landscape.png" alt="Beschreibung" style="width: calc(min(80%, 600px + 10%)); margin: auto; display: block; border-radius: 40px">
+<img src="Images/landscape.png" alt="Beschreibung" style="width: 80%; margin: auto; display: block; border-radius: 40px">
 
 #### How to color it:
 Naturally though, the programm only produces an .obj-file, which can be viewed with any 3d viewer of your choice. 
