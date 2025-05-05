@@ -4,6 +4,34 @@
 # Log file
 *.log
 
+# Temporary Files
+*.tmp
+*.swp
+
+# IntelliJ IDEA
+.idea/
+*.iml
+out/
+
+# Eclipse
+.project
+.classpath
+.settings/
+
+# VSCode
+.vscode/
+
+# Build-Systems
+target/
+build/
+
+# Operating-System
+.DS_Store
+Thumbs.db
+
+# Reports
+reports/
+
 # BlueJ files
 *.ctxt
 
@@ -22,3 +50,6 @@
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
 replay_pid*
+
+# Object-Files
+*.obj
