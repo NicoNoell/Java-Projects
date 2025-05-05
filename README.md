@@ -16,7 +16,7 @@ square grid is restored. If you repeat this process recursively a sufficient num
 get natural terrain looking something like this: <br> 
 
 <div style="text-align: center;">
-  <img src="Images/landscape.png" alt="Landscape" style="width: 80%; border-radius: 40px; max-width: 800px">
+  <img src="Images/landscape.png" alt="Landscape" style="width: 80%; border-radius: 40px;">
 </div>
 
 #### How to color it:
