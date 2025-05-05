@@ -4,7 +4,7 @@ public class Main {
     public final static double noise = 1.7; // A bigger value means less noise
 
     public static void main(String[] args) {
-        double[][] grid = GridGenerator.generateGrid(5);
+        double[][] grid = GridGenerator.generateGrid(6);
 
         ObjFileWriter.writeGridToObjFile(grid, pathToObjFile, scaling);
     }

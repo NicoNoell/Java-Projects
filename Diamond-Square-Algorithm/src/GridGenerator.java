@@ -44,7 +44,7 @@ public class GridGenerator {
             }
         }
 
-        // -- Square Step --
+        // -- Diamond Step --
         for (int y = 0; y < oldSideLength - 1; y++){
             for (int x = 0; x < oldSideLength - 1; x++){
                 double sum = currentGrid[y][x]
@@ -56,7 +56,7 @@ public class GridGenerator {
             }
         }
 
-        // -- Diamond Step --
+        // -- Square Step --
         // Fill top Border
         for (int x = 1; x < nextGrid.length - 1; x += 2){
             double sum = nextGrid[0][x-1]
