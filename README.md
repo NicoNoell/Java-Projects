@@ -13,9 +13,11 @@ during which you compute the average of the four corners and add a center vertex
 a random offset (the "variance"). During the follow-up **Square Step**, vertices are inserted at the edge of the square 
 similar to the Diamond Step, such that a 
 square grid is restored. If you repeat this process recursively a sufficient number of times reducing the variance as you go, you 
-get natural terrain looking something like this: \
-\
-<img src="Images/landscape.png" alt="Beschreibung" style="width: 80%; margin: auto; display: block; border-radius: 40px">
+get natural terrain looking something like this: <br> 
+
+<div style="text-align: center;">
+  <img src="Images/landscape.png" alt="Landscape" style="width: 80%; border-radius: 40px; max-width: 800px">
+</div>
 
 #### How to color it:
 Naturally though, the programm only produces an .obj-file, which can be viewed with any 3d viewer of your choice. 
